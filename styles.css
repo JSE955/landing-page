@@ -136,3 +136,49 @@ button {
     color: #1F2937;
     align-self: flex-end;
 }
+
+.call-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 200px;
+}
+
+.call-to-action {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    flex-grow: 1;
+    border-radius: 8px;
+    padding: 50px 100px;
+    display: flex;
+}
+
+.call-left-head {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.call-button {
+    border: solid white 2px;
+}
+
+.call-left {
+    flex-grow: 3;
+}
+
+.call-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #1F2937;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
